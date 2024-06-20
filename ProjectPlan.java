@@ -69,4 +69,7 @@ public class ProjectPlan {
 
      */
 
+
+    // [aws ec2 인스턴스 ssh 접근 명령어]
+    // : ssh -i meowbow_key.pem ec2-user@13.125.75.12 // 이떄, meowbow_key.pem 은 개인이 만든 키페어명
 }
