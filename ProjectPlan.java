@@ -72,4 +72,8 @@ public class ProjectPlan {
 
     // [aws ec2 인스턴스 ssh 접근 명령어]
     // : ssh -i meowbow_key.pem ec2-user@13.125.75.12 // 이떄, meowbow_key.pem 은 개인이 만든 키페어명
+
+    // [규칙]
+    // 1. client > api gateway 로의 요청은 restful-api
+    // 2. api gateway 내부 service 들끼리의 요청은 gRpc 요청으로 함
 }
