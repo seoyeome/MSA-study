@@ -184,4 +184,7 @@ public class ProjectPlan {
     // [DB]
     // 1. AWS 인스턴스 1개 내에서 Docker Hub 의 각 DB 이미지를 pull 받아
     //    각 서비스내에 password 등으로 연동하여 데이터 연결
+
+    // 2. 이때, 그 설정을 해줄 docker-compose.yml 은 중앙집중형 방식으로 api gateway project에 설정함
+    // 3. 각 프로젝트에서 dockerfile 은 image 화를 위해서 필요함
 }
